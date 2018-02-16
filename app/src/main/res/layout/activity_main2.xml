@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.agrim.catchtheball.Main2Activity">
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="103dp"
+        android:text="CATCH THE BALL"
+        android:textSize="22sp"
+        android:id="@+id/txt4"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/im2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="90dp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"
+        android:text="30"
+        android:textSize="22sp"
+        android:id="@+id/txt5"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="150dp"
+        android:text="10"
+        android:textSize="22sp"
+        android:id="@+id/txt6"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/im3"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="90dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="150dp"
+        android:text="GAME OVER"
+        android:textSize="22sp"
+        android:id="@+id/txt7"/>
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:id="@+id/im4"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="90dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="117dp"
+        android:layout_gravity="center"
+        android:text="START"
+        android:id="@+id/btn2"/>
+
+</RelativeLayout>
